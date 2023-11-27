@@ -20,9 +20,7 @@ Now I'm going to ask people I work with to take a look, and see if this can be i
 
 First try running the app, <a href="http://scripting.com/code/includeFeedlandTimeline/index.html">here</a>. 
 
-Look at code.js and see how it works. Not much there! 
+Look at <a href="https://github.com/scripting/feedlandRiverInclude/blob/main/code.js">code.js</a> and see how it works. Not much there! 
 
-Then look at the head section of index.html.
-
-There are quite a few script and css files included. 
+Then look at the head section of <a href="https://github.com/scripting/feedlandRiverInclude/blob/main/index.html">index.html</a>. There are quite a few script and css files included. 
 
