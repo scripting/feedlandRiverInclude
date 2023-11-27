@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>includeFeedlandTimeline</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script src="//s3.amazonaws.com/scripting.com/code/includes/jquery-1.9.1.min.js"></script>
+		<link href="//s3.amazonaws.com/scripting.com/code/includes/bootstrap.css" rel="stylesheet">
+		<script src="//s3.amazonaws.com/scripting.com/code/includes/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" href="//s3.amazonaws.com/scripting.com/code/fontawesome/css/all.css">
+		<link href="//fonts.googleapis.com/css?family=Ubuntu:400,500i,700" rel="stylesheet">
+		
+		<script src="//s3.amazonaws.com/scripting.com/code/includes/basic/code.js"></script>
+		<link href="//s3.amazonaws.com/scripting.com/code/includes/basic/styles.css" rel="stylesheet" type="text/css">
+		
+		<script src="//s3.amazonaws.com/fargo.io/code/markdownConverter.js"></script>
+		
+		<script src="//s3.amazonaws.com/scripting.com/code/feedland/home/api.js"></script>
+		<script src="//s3.amazonaws.com/scripting.com/code/feedland/home/misc.js"></script>
+		<link href="//s3.amazonaws.com/scripting.com/code/feedland/home/misc.css" rel="stylesheet" type="text/css">
+		<link href="//s3.amazonaws.com/scripting.com/code/feedland/home/oldschoolrender.css" rel="stylesheet" type="text/css">
+		<script src="//s3.amazonaws.com/scripting.com/code/feedland/home/oldschoolrender.js"></script>
+		<script src="//s3.amazonaws.com/scripting.com/code/feedland/home/getfeedinfo.js"></script>
+		<script src="//s3.amazonaws.com/scripting.com/code/feedland/home/riverviewer.js"></script>
+		<link href="//s3.amazonaws.com/scripting.com/code/feedland/home/riverviewer.css" rel="stylesheet" type="text/css">
+		
+		<script src="code.js"></script>
+		<link rel="stylesheet" href="styles.css"/>
+		</head>
+	<body>
+		<div class="divPageBody">
+			
+			<div class="divConfigDisplay">
+				<p>A demo app that shows how to include a FeedLand timeline, in a minimal way, in another app.</p>
+				<p id="idServerUrl"></p>
+				<p id="idRiverSpec"></p>
+				</div>
+			
+			<div class="divRiverContainer">
+				</div>
+			</div>
+		<script>
+			$(document).ready (function () {
+				startup ();
+				});
+			</script>
+		</body>
+	</html>
